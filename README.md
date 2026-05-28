@@ -17,7 +17,7 @@
   <a href="https://linkedin.com/in/khrenok" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://t.me/khrenok" target="_blank">
+  <a href="https://t.me/khrenok1" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
 </p>
