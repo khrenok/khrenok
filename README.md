@@ -49,9 +49,9 @@ struct Developer {
 
 | Company | Period | Role | Focus |
 |---------|--------|------|-------|
-| **ELTEX** | — | Engineer-Programmer | Embedded systems, firmware development |
-| **Schlumberger** | — | Engineer-Programmer | Industrial embedded solutions |
-| **MIKRAN** | — | Engineer-Programmer | MCU-based systems, IoT |
+| **ELTEX** | 2022-2023 | System-Programmer | Embedded systems, firmware development |
+| **Schlumberger** | 2024-2025 | Engineer-Programmer | Industrial embedded solutions |
+| **MIKRAN** | 2025-... | Engineer-Programmer | MCU-based systems |
 
 > *В каждой компании решал задачи от bare-metal до систем с сетевым стеком. Знаю, что значит "это должно работать в поле при -40°C".*
 
@@ -123,16 +123,15 @@ struct Developer {
 
 ### ⚡ Embedded Systems (Core Expertise)
 - **Bare-metal programming** — от регистров до HAL, без прослойки, если нужна скорость
-- **RTOS** — FreeRTOS, ThreadX, Zephyr: задачи, приоритеты, IPC, deadlock-анализ
+- **RTOS** — FreeRTOS, Zephyr: задачи, приоритеты, IPC, deadlock-анализ
 - **Периферия** — DMA, ADC/DAC, Timers, PWM, SPI, I2C, UART, CAN, USB, Ethernet
-- **Bootloader'ы** — custom bootloaders с OTA, шифрованием, rollback
+- **Bootloader'ы** — custom bootloaders c резервированием, шифрованием, rollback
 - **Low-power** — оптимизация потребления: sleep modes, clock gating, peripheral shutdown
 
 ### 🌐 Embedded Web & IoT
 - **Embedded Web UI** — HTTP-серверы на MCU, REST API, WebSocket, JSON-RPC
-- **IoT протоколы** — MQTT, CoAP, HTTP/HTTPS, TLS/SSL на ограниченных ресурсах
-- **Связь** — Wi-Fi, BLE, LoRa, Cellular (в зависимости от проекта)
-- **Облако** — интеграция с AWS IoT, Azure IoT (по необходимости)
+- **IoT протоколы** — MQTT, HTTP/HTTPS, TLS/SSL на ограниченных ресурсах
+- **Связь** — Wi-Fi, BLE, LoRa
 
 ### 🐧 Embedded Linux (Current Focus)
 - **Board Bring-up** — U-Boot, Kernel, Device Tree, RootFS
@@ -143,18 +142,18 @@ struct Developer {
 ### 🔷 FPGA (Learning & Growing)
 - **RTL Design** — Verilog, VHDL, тестбенчи
 - **Синтез** — Vivado, timing constraints, clock domains
-- **Soft-core** — RISC-V, MicroBlaze интеграция
+- **Soft-core** — RISC-V
 - **AXI** — интерфейсы, DMA, custom IP-cores
 
 ### ⚡ Hardware Design (Growing)
 - **Схемотехника** — читаю, анализирую, могу доработать (не проектирую с нуля)
 - **PCB Review** — проверяю на ошибки, EMC, signal integrity
-- **KiCad / Altium** — базовые навыки, улучшаю
+- **KiCad** — базовые навыки, улучшаю
 
 ### 🐍 Python Ecosystem
 - **Тестирование** — pytest, unittest, интеграционные тесты железа
 - **Утилиты** — скрипты для сборки, прошивки, логирования, анализа
-- **Автоматизация** — CI/CD пайплайны, GitHub Actions для embedded
+- **Автоматизация** — CI/CD пайплайны, GitLub CI/CD, Jankins job's для embedded
 
 ---
 
